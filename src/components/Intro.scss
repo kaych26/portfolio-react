@@ -1,23 +1,20 @@
 .intro-wrap {
-	background-image: url(../img/whiteBrickWall.jpg);
+	// background-image: url(../img/whiteBrickWall.jpg);
 	min-height: 100vh;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	position: relative;
-}
-
-.intro-h1 {
-	// border: 3px solid orange;
+	// position: relative;
+	scroll-margin-top: 60px;
 }
 
 .intro-hi {
 	background: rgba(255,105,180, 0.65);
 	border-radius: 50%;
-	padding: 15px 25px;
-	font-size: 100px;
+	padding: 15px 20px;
+	font-size: 40px;
 	color: white;
 	// animation: slide-right 5s 2;
 	// animation-direction: alternate;
@@ -26,6 +23,18 @@
 	// transform: translateX(100%);
 	// animation-delay: 2s;
 	// display: inline-block;
+}
+
+.intro-divider {
+	// margin: 0 -15px;
+	width: 50%;
+	border-top: 6px solid black;
+	position: absolute;
+	bottom: 0;
+	border-radius: 30%;;
+	// align: center;
+	// left: 0;
+	// text-align: center;
 }
 
 @keyframes slide-right {
@@ -37,7 +46,7 @@
 }
 
 .intro-name {
-
+	font-size: 16px;
 }
 
 @keyframes slide {
@@ -51,26 +60,42 @@
 }
 
 .intro-name {
-	// padding: 100px 0 30px;
-	// padding-bottom: 90px;
-	font-size: 80px;
+	font-size: 35px;
 	color: hotpink;
 }
 
 .intro-role {
-
-	font-size: 30px;
-	padding-top: 50px;
+	font-size: 20px;
+		
+	line-height: 1.3em;
+	padding: 40px 35px 0;
+	text-align: center;
 }
 
 .intro-social {
 	list-style-type: none;
 	display: flex;
-	// border: 2px solid red;
 }
 
 .intro-social li{
 	// display: inline-block;
-	padding: 40px 20px;
+	padding: 30px 20px;
 }
 
+// desktop
+@media all and (min-width: 960px) {
+	.intro-hi {
+		padding: 15px 25px;
+		font-size: 90px;
+	}
+
+	.intro-name {
+		font-size: 75px;
+	}
+
+	.intro-role {
+		font-size: 30px;
+		padding-top: 50px;
+	}
+
+}

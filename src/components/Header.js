@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import './Header.scss';
 import kLogo from '../img/KIcon.png';
 
 export default class Header extends Component {
 	render() {
 		return (
-			<header id='home'>
+			<header>
 
-				<nav id='nav-wrap'>
+				<nav className='nav-wrap'>
 					<img className='header-logo' src={kLogo} alt='Kay' width='50' />
 					<ul id='nav' className='header-menu'>
 						<li className='current'> <a href='#home'>Home</a></li>
