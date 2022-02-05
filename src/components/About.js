@@ -8,15 +8,12 @@ export default function About(props) {
 		<section id='about' className='about-wrap'>
 			<h2 className='about-title'>My Story</h2>
 			<div className='about-body'>
-				{portfolioData.about && portfolioData.about.map((item, idx) => {
-					return(
-						<div>
-							<h3 key={idx}>{item}</h3>
-							<br/>
-						</div>
-					)
-				})
-			}
+				{portfolioData.about && portfolioData.about.map((item, index) => {
+					<div>
+						<h3 key={index}>{item}</h3>
+						<br/>
+					</div>
+				})}
 			</div>
 			<hr align='center' className='about-divider'/>
 		</section>

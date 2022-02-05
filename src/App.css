@@ -48,6 +48,10 @@ body {
   background-attachment: fixed;
 	min-height: 50vh;
   padding: 0 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   /* margin-top: 64px; */
   /* margin-top: 65px; */
 }

@@ -1,6 +1,7 @@
 let resumeData = {
 	'name': ' I am Kay Chan.',
-	'role': ['I am a Software Engineer', 'based in NYC.'],
+	'role': ['I am a Software Engineer based in NYC.'],
+	// 'role': ['I am a Software Engineer', 'based in NYC.'],
 	'about': [
 		'A solutions-driven engineer with 10+ years of experience from developing market data application for financial companies to implementing cutting-edge website for major media company. ',
 

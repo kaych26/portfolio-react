@@ -1,9 +1,11 @@
 .resume-wrap {
-	height: 100vh;
+	// height: 100%;
+	height: 70vh;
 	// margin-top: 64px;
 	// scroll-margin-top: 100px;
-	// top: 100px;
-	padding: 85px 0 30px;
+	top: 100px;
+	width: 100%;
+	// padding: 85px 0 30px;
 }
 
 .resume-title {
@@ -14,8 +16,41 @@
 }
 
 .resume-pdf {
-	width: 88%;
+	// width: 88%;
+	// height: 100%;
+	// margin: 0 auto;
+	// display: block;
+}
+
+.resume-image {
+	// background-color: black;
+	// display: flex;
 	height: 100%;
-	margin: 0 auto;
-	display: block;
+	// border: 3px solid red;
+	// width: 100%;
+	// display: block;
+
+	// object-fit: cover;
+	// padding-bottom: 35%;
+	text-align: center;
+
+	img {
+		width: 100%;
+		object-fit: cover;
+		object-position: bottom;
+	}
+}
+
+.test {
+	width: 100%;
+}
+
+
+@media all and (min-width: 760px) {
+	.resume-image {
+		img {
+			width: 80%;
+		}
+	}
+
 }

@@ -25,6 +25,10 @@
 	// display: inline-block;
 }
 
+.intro-role {
+	width: 80%;
+}
+
 .intro-divider {
 	// margin: 0 -15px;
 	width: 50%;
@@ -78,12 +82,11 @@
 }
 
 .intro-social li{
-	// display: inline-block;
 	padding: 30px 20px;
 }
 
 // desktop
-@media all and (min-width: 960px) {
+@media all and (min-width: 760px) {
 	.intro-hi {
 		padding: 15px 25px;
 		font-size: 90px;

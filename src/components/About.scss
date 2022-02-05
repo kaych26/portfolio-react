@@ -3,7 +3,7 @@
 .about-wrap {
 	min-height: 100vh;
 	scroll-margin-top: 60px;
-	position: relative;
+	// position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -20,7 +20,6 @@
 
 .about-body {
 	font: 15px/1.5 'Handlee', cursive;
-	// font-family: 'Handlee', cursive;
 	padding: 10px 15px;
 }
 
@@ -33,8 +32,12 @@
 }
 
 @media all and (min-width: 760px) {
+	.about-wrap {
+		width: 75%;
+	}
 	.about-body {
 		font-size: 20px;
 		padding: 0 40px;
+		// width: 75%;
 	}
 }

@@ -9,9 +9,9 @@ export default function Intro(props) {
 		<section id='home' className='intro-wrap'>
 			<h1 className='intro-h1'><span className='intro-hi'>Hi</span><span className='intro-name'> {portfolioData.name}</span></h1>
 			<h3 className='intro-role'> {
-				portfolioData.role.map(line => {
+				portfolioData.role.map((line, index) => {
 					return (
-						<p>	{line} </p>
+						<p key={index}>	{line} </p>
 					)
 				})
 			}

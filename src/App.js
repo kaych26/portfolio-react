@@ -18,7 +18,7 @@ class App extends Component {
           <Intro portfolioData={portfolioData}/>
           <About portfolioData={portfolioData}/>
           <Resume/>
-          <Contact/>
+          {/* <Contact/> */}
         </div>
       </div>
     )
